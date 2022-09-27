@@ -1,11 +1,25 @@
 ![Banner](https://user-images.githubusercontent.com/86114583/192513596-74ec6c1c-cddb-4dee-93de-a588187e67cc.png)
 
 
-# Julius Answer
+# 🔐 - Julius Answer
 
-Julius Answer is a Caesar Cipher Decryptor, that returns all possibilities for a cipher.
+Julius Answer is a Caesar Cipher Decryptor, that returns all possibilities for a cipher. You can know more about Caesar Cipher clicking [here.](https://en.wikipedia.org/wiki/Caesar_cipher)
 
-## 👥 - Autores
+## 🖌 - Prototype
+
+Visit the Figma file in the link below to see the visual prototype of the project:
+- Julius Answer - [Prototype](https://www.figma.com/file/W5mV3LJNVDOy8tcdKvCMfw/Julius-Answer?node-id=16%3A15)
+
+## 👷‍ - Steps
+- [x] Start App
+- [ ] Base HTML
+- [ ] Javascript Logic
+- [ ] Styling
+- [ ] Tests
+- [ ] Deploy
+
+
+## 👤 - Author
 
 <table>
   <tr>
