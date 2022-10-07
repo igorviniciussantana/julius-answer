@@ -22,7 +22,7 @@ export default function Home() {
            <button onclick="" className={styles.button}>Traduzir mensagem</button>
               <div onload="">
               <ul id="" className={styles.lista}>
-
+                
                </ul>
               </div>
         </container>
