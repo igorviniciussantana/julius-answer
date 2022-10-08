@@ -19,11 +19,13 @@ Visit the Figma file in the link below to see the visual prototype of the projec
 - [ ] Deploy
 
 
-## 👤 - Author
+## 👤 - Authors
 
 <table>
   <tr>
     <td align="center"><a href="https://github.com/igorviniciussantana"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/86114583?v=4" width="100px;" alt=""/><br /><sub><b>Igor Vinicius</b></sub></a><br /><br /><a href="https://linkedin.com/in/igorviniciussantana"><img src="https://user-images.githubusercontent.com/86114583/192514843-1087a34f-74f9-46aa-94fa-e824950af81f.svg" width="20px"/></a>⠀<a href="mailto:igor.santana@estudante.ifms.edu.br"><img src="https://user-images.githubusercontent.com/86114583/192515071-4fa6bce6-6ee9-49ca-9395-c17e74075a20.svg" width="20px"/></a>⠀<a href="https://behance.net/igorvinicius8"><img src="https://user-images.githubusercontent.com/86114583/192515924-e754ab5f-d7bc-416f-a3f9-0b6e3e81eb6c.svg" width="20px"/></a>
+    </td>
+     <td align="center"><a href="https://github.com/juliaferreiraas"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/85883344?v=4" width="100px;" alt=""/><br /><sub><b>Julia Ferreira</b></sub></a><br /><br /><a href="https://www.linkedin.com/in/julia-ferreira-6b5b2b246/"><img src="https://user-images.githubusercontent.com/86114583/192514843-1087a34f-74f9-46aa-94fa-e824950af81f.svg" width="20px"/></a>⠀<a href="mailto:julia.silva7@estudante.ifms.edu.br"><img src="https://user-images.githubusercontent.com/86114583/192515071-4fa6bce6-6ee9-49ca-9395-c17e74075a20.svg" width="20px"/></a>
     </td>
     </tr>
     </table>
