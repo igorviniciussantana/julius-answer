@@ -32,7 +32,7 @@ if(letter != ' '){
               }
             })}
            
-           <ListaItem id={index} saida={saida} />
+           <ListaItem id={index} saida={saida} key={index} />
             <span className={styles.none}>{counter++}</span>
           </div>
         )
