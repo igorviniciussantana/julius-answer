@@ -2,39 +2,11 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import { useState } from "react";
+import Lista from '../components/lista'
+import Title from "../components/title";
 
 export default function Home() {
-  const alfabeto = "abcdefghijklmnopqrstuvwxyz";
   const [mensagem, setMensagem] = useState("");
-  const [counter, setCounter] = useState(1);
-  
-
-  const retornaMensagem = function () {
-    var alfabetoArray = alfabeto.split("");
-    var mensagemArray = mensagem.split("");
-
-
-    alfabetoArray.forEach(()=>{
-      var saida = [];
-
-mensagemArray.forEach((letter, index) => {
-
-var retorna = alfabetoArray.indexOf(letter)
-
-if(counter < 25){
-// console.log(alfabetoArray[retorna + counter])
-saida.push(alfabetoArray[retorna + counter])
-}else{
-
-  setCounter(1)
-}
-
-    })
-    setCounter(counter++)
-    console.log(mensagem, saida.toString())
-    
-    ;})
-  };
 
   return (
     <div className={styles.container}>
@@ -45,10 +17,7 @@ saida.push(alfabetoArray[retorna + counter])
       </Head>
 
       <main className={styles.main}>
-        <container className={styles.container}>
-          <div className={styles.titulo}>
-            <h1>Julius Answer</h1>
-          </div>
+            <Title texto="Julius Answer"/>
           <div className={styles.mensagem}>
             <input
               id=""
@@ -57,13 +26,10 @@ saida.push(alfabetoArray[retorna + counter])
               onChange={(ev) => setMensagem(ev.target.value)}
             />
           </div>
-          <button onClick={retornaMensagem} className={styles.button}>
-            Traduzir mensagem
-          </button>
-          <div onload="">
-            <ul id="" className={styles.lista}></ul>
-          </div>
-        </container>
+    
+           <Lista mensagem={mensagem} />
+  
+  
       </main>
 
       <footer className={styles.footer}></footer>
