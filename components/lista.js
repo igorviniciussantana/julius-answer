@@ -16,7 +16,7 @@ export default function Lista(props) {
       {alfabetoArray.map((letra,index) => {
         var saida = [];
         return (
-          <div>
+          <div key={index}>
             {mensagemArray.map((letter) => {
               var retorna = alfabetoArray.indexOf(letter);
               var indice = retorna + counter;
@@ -32,8 +32,8 @@ if(letter != ' '){
               }
             })}
            
-           <ListaItem id={index} saida={saida} key={index} />
-            <span className={styles.none}>{counter++}</span>
+           <ListaItem id={index} saida={saida} />
+            <span className={styles.none} >{counter++}</span>
           </div>
         )
       }
