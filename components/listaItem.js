@@ -1,4 +1,4 @@
-import styles from "../styles/lista/lista.module.css";
+import styles from "../styles/listaItem/listaitem.module.css";
 
 export default function ListaItem(props) {
  

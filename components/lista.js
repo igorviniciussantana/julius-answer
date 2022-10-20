@@ -12,8 +12,9 @@ export default function Lista(props) {
   return (
     <>
       <h1>All Possibilities</h1>
-
+{/* Executa uma função para letra do alfabeto */}
       {alfabetoArray.map((letra,index) => {
+
         var saida = [];
         return (
           <div key={index}>
