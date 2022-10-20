@@ -1,3 +1,14 @@
 $main-color: #934012;
 $secondary-color: #EB9363;
 $light-color: #FFCEB4;
+
+.listaItem {
+    width: 60%;
+    border-bottom: $light-color 1px solid;
+
+    .id {
+
+        color: $secondary-color;
+        font-size: 1.5rem;
+    }
+}

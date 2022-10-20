@@ -10,37 +10,38 @@ export default function Lista(props) {
 
 
   return (
-    <>
+    <div className={styles.lista}>
       <h1>All Possibilities</h1>
-{/* Executa uma função para letra do alfabeto */}
-      {alfabetoArray.map((letra,index) => {
+      {/* Executa uma função para letra do alfabeto */}
+      {alfabetoArray.map((letra, index) => {
 
         var saida = [];
         return (
-          <div key={index}>
+          <div key={index} className={styles.itens}>
             {mensagemArray.map((letter) => {
               var retorna = alfabetoArray.indexOf(letter);
               var indice = retorna + counter;
-if(letter != ' '){
-              if (indice < 26) {
-                saida.push(alfabetoArray[indice]);
+              if (letter != ' ') {
+                if (indice < 26) {
+                  saida.push(alfabetoArray[indice]);
+                } else {
+                  saida.push(alfabetoArray[indice - 26]);
+                }
               } else {
-                saida.push(alfabetoArray[indice - 26]);
-              }}else{
 
                 saida.push(' ');
 
               }
             })}
-           
-           <ListaItem id={index} saida={saida} />
+
+            <ListaItem id={index} saida={saida} />
             <span className={styles.none} >{counter++}</span>
           </div>
         )
       }
-      
+
       )}
-    </>
+    </div>
   );
 
 }

@@ -1,3 +1,21 @@
-.red {
-  color: red;
+.container {
+  width: 100%;
+  height: 100%;
+  background-image: url("../public/images/background.jpg");
+  background-size: cover;
+  overflow: hidden;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  width: 95%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  row-gap: 12px;
+  flex-direction: column;
+  overflow-y: scroll;
 }/*# sourceMappingURL=Home.module.css.map */

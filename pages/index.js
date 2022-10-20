@@ -16,16 +16,19 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
+      <div className={styles.main}>
         <Title texto="Julius Answer" />
+
+
 
         <Input
           placeholder="Insira sua mensagem"
           MudarMensagem={(ev) => setMensagem(ev)}
         />
-
+        <a href="https://pt.wikipedia.org/wiki/Cifra_de_C%C3%A9sar" target="_blank">O que é a Cifra de César?</a>
         <Lista mensagem={mensagem} />
-      </main>
+
+      </div>
     </div>
   );
 }

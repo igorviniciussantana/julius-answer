@@ -1,1 +1,8 @@
-/*# sourceMappingURL=listaitem.module.css.map */
+.listaItem {
+  width: 60%;
+  border-bottom: #FFCEB4 1px solid;
+}
+.listaItem .id {
+  color: #EB9363;
+  font-size: 1.5rem;
+}/*# sourceMappingURL=listaitem.module.css.map */
