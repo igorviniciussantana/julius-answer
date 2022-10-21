@@ -1,5 +1,6 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
+import Link from "next/link";
 import { useState } from "react";
 import Lista from "../components/lista";
 import Title from "../components/title";
@@ -25,7 +26,7 @@ export default function Home() {
           placeholder="Insira sua mensagem"
           MudarMensagem={(ev) => setMensagem(ev)}
         />
-        <a href="https://pt.wikipedia.org/wiki/Cifra_de_C%C3%A9sar" target="_blank">O que é a Cifra de César?</a>
+        <Link href="https://pt.wikipedia.org/wiki/Cifra_de_C%C3%A9sar"><a href="https://pt.wikipedia.org/wiki/Cifra_de_C%C3%A9sar" target="_blank">O que é a Cifra de César?</a></Link>
         <Lista mensagem={mensagem} />
 
       </div>
