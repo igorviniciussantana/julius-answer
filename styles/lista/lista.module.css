@@ -11,6 +11,9 @@
   flex-direction: column;
   align-items: center;
 }
+.lista .title {
+  font-size: 48px;
+}
 .lista .itens {
   width: 100%;
   display: flex;

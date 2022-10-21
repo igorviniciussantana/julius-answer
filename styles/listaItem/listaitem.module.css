@@ -1,8 +1,17 @@
 .listaItem {
   width: 60%;
   border-bottom: #FFCEB4 1px solid;
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 12px;
+       column-gap: 12px;
 }
 .listaItem .id {
   color: #EB9363;
-  font-size: 1.5rem;
+  font-size: 3rem;
+}
+.listaItem .valor {
+  justify-self: center;
+  font-size: 2rem;
+  word-break: break-word;
 }/*# sourceMappingURL=listaitem.module.css.map */

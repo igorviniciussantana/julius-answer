@@ -5,10 +5,24 @@ $light-color: #FFCEB4;
 .listaItem {
     width: 60%;
     border-bottom: $light-color 1px solid;
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+    
 
     .id {
 
         color: $secondary-color;
-        font-size: 1.5rem;
+        font-size: 3rem;
+
+    }
+
+    .valor{
+     
+        justify-self: center;
+      
+        font-size: 2rem;
+word-break: break-word;
+
     }
 }
