@@ -12,8 +12,8 @@ Visit the Figma file in the link below to see the visual prototype of the projec
 
 ## 👷‍ - Steps
 - [x] Start App
-- [ ] Base HTML
-- [ ] Javascript Logic
+- [X] Base HTML
+- [X] Javascript Logic
 - [ ] Styling
 - [ ] Tests
 - [ ] Deploy
