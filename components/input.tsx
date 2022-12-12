@@ -1,7 +1,13 @@
 import styles from "../styles/input/input.module.css";
 
-export default function Input(props) {
-  function Mudar(e) {
+interface InputProps{
+  placeholder: string;
+  MudarMensagem: (e: string) => void;
+}
+
+
+export default function Input(props : InputProps) {
+  function Mudar(e : React.ChangeEvent<HTMLInputElement>) {
     props.MudarMensagem(e.target.value);
   }
 

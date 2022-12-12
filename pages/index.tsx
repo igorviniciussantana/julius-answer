@@ -24,7 +24,7 @@ export default function Home() {
 
         <Input
           placeholder="Insira sua mensagem"
-          MudarMensagem={(ev) => setMensagem(ev)}
+          MudarMensagem={(ev : string) => setMensagem(ev)}
         />
         <Link href="https://pt.wikipedia.org/wiki/Cifra_de_C%C3%A9sar"><a  target="_blank">O que é a Cifra de César?</a></Link>
         <Lista mensagem={mensagem} />
