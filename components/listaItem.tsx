@@ -1,6 +1,12 @@
 import styles from "../styles/listaItem/listaitem.module.css";
 
-export default function ListaItem(props) {
+interface ListaItemProps{
+  id: number;
+  saida: string;
+}
+
+
+export default function ListaItem(props : ListaItemProps) {
  
   return (
     <div className={styles.listaItem}>
