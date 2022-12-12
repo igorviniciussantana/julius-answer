@@ -1,13 +1,13 @@
 .listaItem {
   width: 60%;
-  border-bottom: #FFCEB4 1px solid;
+  border-bottom: #ffceb4 1px solid;
   display: flex;
   align-items: center;
   -moz-column-gap: 12px;
        column-gap: 12px;
 }
 .listaItem .id {
-  color: #EB9363;
+  color: #eb9363;
   font-size: 3rem;
 }
 .listaItem .valor {

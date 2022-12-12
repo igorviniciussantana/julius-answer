@@ -4,7 +4,8 @@
   font-family: "ikaros", sans-serif;
 }
 
-html, body {
+html,
+body {
   width: 100%;
   height: 100%;
   overflow: hidden;
