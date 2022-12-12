@@ -18,4 +18,9 @@
   align-items: center;
   row-gap: 12px;
   flex-direction: column;
+
+  a{
+    text-decoration: underline;
+    cursor: pointer;
+  }
 }

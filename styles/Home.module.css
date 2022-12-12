@@ -17,4 +17,8 @@
   align-items: center;
   row-gap: 12px;
   flex-direction: column;
+}
+.main a {
+  text-decoration: underline;
+  cursor: pointer;
 }/*# sourceMappingURL=Home.module.css.map */
