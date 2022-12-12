@@ -22,6 +22,7 @@
 .lista .title {
   font-size: 48px;
   padding: 0.5rem 0;
+  text-align: center;
 }
 .lista .itens {
   width: 100%;
