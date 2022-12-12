@@ -19,9 +19,19 @@ color: $main-color;
 display: flex;
 flex-direction: column;
 align-items: center;
+overflow-y: scroll;
+
+&::-webkit-scrollbar{
+    width: 10px;
+}
+&::-webkit-scrollbar-thumb{
+    background-color: $main-color;
+    border-radius: 1rem;
+}
 
 .title{
 font-size: 48px;
+padding: 0.5rem 0;
 
 
 }

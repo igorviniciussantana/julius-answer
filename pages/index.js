@@ -14,7 +14,7 @@ export default function Home() {
       <Head>
         <title>Julius Answer</title>
         <meta name="description" content="Caesar's cipher decryptor" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/images/icon.png" />
       </Head>
 
       <div className={styles.main}>
