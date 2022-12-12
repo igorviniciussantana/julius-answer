@@ -2,6 +2,8 @@ $main-color: #934012;
 $secondary-color: #EB9363;
 $light-color: #FFCEB4;
 
+
+
 .listaItem {
     width: 60%;
     border-bottom: $light-color 1px solid;
@@ -23,6 +25,13 @@ $light-color: #FFCEB4;
       
         font-size: 2rem;
 word-break: break-word;
+
+    }
+}
+
+@media screen and (max-width: 800px){
+    .listaItem {
+        width: 80%;
 
     }
 }

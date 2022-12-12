@@ -14,4 +14,10 @@
   justify-self: center;
   font-size: 2rem;
   word-break: break-word;
+}
+
+@media screen and (max-width: 800px) {
+  .listaItem {
+    width: 80%;
+  }
 }/*# sourceMappingURL=listaitem.module.css.map */
