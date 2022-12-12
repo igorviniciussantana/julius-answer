@@ -1,7 +1,13 @@
 import styles from "../styles/lista/lista.module.css";
 import ListaItem from "./listaItem";
 
-export default function Lista(props) {
+interface ListaProps{
+mensagem: string;
+}
+
+
+
+export default function Lista(props : ListaProps) {
   const alfabeto = "abcdefghijklmnopqrstuvwxyz";
   var counter = 1;
 
@@ -15,9 +21,11 @@ export default function Lista(props) {
       {/* Executa uma função para letra do alfabeto */}
       {alfabetoArray.map((letra, index) => {
 
-        var saida = [];
+        var saida : string[] = [];
+
         return (
           <div key={index} className={styles.itens}>
+            <>
             {mensagemArray.map((letter) => {
               var retorna = alfabetoArray.indexOf(letter);
               var indice = retorna + counter;
@@ -36,6 +44,7 @@ export default function Lista(props) {
 
             <ListaItem id={index} saida={saida} />
             <span className={styles.none} >{counter++}</span>
+            </>
           </div>
         )
       }

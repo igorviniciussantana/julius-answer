@@ -2,7 +2,7 @@ import styles from "../styles/listaItem/listaitem.module.css";
 
 interface ListaItemProps{
   id: number;
-  saida: string;
+  saida: string[];
 }
 
 
