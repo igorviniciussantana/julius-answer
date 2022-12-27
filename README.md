@@ -10,13 +10,31 @@ Julius Answer is a Caesar Cipher Decryptor, that returns all possibilities for a
 Visit the Figma file in the link below to see the visual prototype of the project:
 - Julius Answer - [Prototype](https://www.figma.com/file/W5mV3LJNVDOy8tcdKvCMfw/Julius-Answer?node-id=16%3A15)
 
+## 👁 - Demonstration
+
+A quick look in the project already in production:
+
+
+<img src="https://user-images.githubusercontent.com/86114583/209662557-7d8fae9b-0f88-4f49-8202-e5fd707282b7.png" align="right" height="500px">
+
+<img src="https://user-images.githubusercontent.com/86114583/209662024-2bed0787-85e5-4017-a601-6679390572bd.png"  height="500px">
+
+
+
+
+
+## 🔗 - Deploy
+
+Visit the link below to access the application:
+- Julius Answer - [Deploy](https://juliusanswer.vercel.app/)
+
 ## 👷‍ - Steps
 - [x] Start App
 - [X] Base HTML
 - [X] Javascript Logic
-- [ ] Styling
-- [ ] Tests
-- [ ] Deploy
+- [X] Styling
+- [X] Tests
+- [X] Deploy
 
 
 ## 👤 - Authors
