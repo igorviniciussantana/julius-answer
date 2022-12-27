@@ -5,6 +5,12 @@
 
 Julius Answer is a Caesar Cipher Decryptor, that returns all possibilities for a cipher. You can know more about Caesar Cipher clicking [here.](https://en.wikipedia.org/wiki/Caesar_cipher)
 
+## 💻 - Techs
+
+- ReactJS
+- NextJS
+- SCSS
+
 ## 🖌 - Prototype
 
 Visit the Figma file in the link below to see the visual prototype of the project:
