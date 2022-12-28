@@ -21,10 +21,9 @@ Visit the Figma file in the link below to see the visual prototype of the projec
 A quick look in the project already in production:
 
 
-<img src="https://user-images.githubusercontent.com/86114583/209662557-7d8fae9b-0f88-4f49-8202-e5fd707282b7.png" align="right" height="500px">
 
-<img src="https://user-images.githubusercontent.com/86114583/209662024-2bed0787-85e5-4017-a601-6679390572bd.png"  height="500px">
 
+![Frame 1](https://user-images.githubusercontent.com/86114583/209817123-bd6935c0-6e54-4e32-b978-7478535bb281.png)
 
 
 
