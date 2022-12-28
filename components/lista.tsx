@@ -7,7 +7,7 @@ interface ListaProps {
 
 export default function Lista(props: ListaProps) {
   const alfabeto = "abcdefghijklmnopqrstuvwxyz";
-  var counter = 1;
+  var counter = 0;
 
   var alfabetoArray = alfabeto.split("");
   var mensagemArray = props.mensagem.split("");
@@ -18,7 +18,7 @@ export default function Lista(props: ListaProps) {
       {/* Executa uma função para letra do alfabeto */}
       {alfabetoArray.map((letra, index) => {
         var saida: string[] = [];
-
+        counter++
         return (
           <div key={index} className={styles.itens}>
             <>
@@ -37,7 +37,6 @@ export default function Lista(props: ListaProps) {
               })}
 
               <ListaItem id={index} saida={saida} />
-              <span className={styles.none}>{counter++}</span>
             </>
           </div>
         );
